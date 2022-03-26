@@ -1,0 +1,39 @@
+.calculator {
+	width: 80%;
+	height: 80%;
+	border: 3px solid grey;
+}
+.display
+.buttons
+
+button
+
+.settings-buttons
+.settings-buttons button
+#save
+#clear
+
+.math-buttons
+
+.numbers-buttons
+.numbers-buttons button
+#button7
+#button8
+#button9
+#button4
+#button5
+#button6
+#button1
+#button2
+#button3
+#button0
+
+.operators-buttons
+.operators-buttons button
+#add
+#subtract
+#multiply
+#divide
+#modulus
+#decimal
+#result
