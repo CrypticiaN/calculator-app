@@ -47,6 +47,7 @@ main {
 
 button {
 	margin: 3px;
+	height: 35px;
 }
 
 .settings-buttons {
@@ -67,7 +68,10 @@ button {
 	margin-bottom: 25px;
 }
 
-.numbers-buttons button
+.numbers-buttons button {
+	width: 80px;
+	height: 80px;
+}
 #button7
 #button8
 #button9
