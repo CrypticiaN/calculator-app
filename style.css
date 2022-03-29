@@ -42,20 +42,25 @@ main {
 }
 
 .buttons {
-	margin: 20px;
+	margin: 25px;
+	display: flex;
+	flex-direction: column;
 }
 
 button {
 	margin: 3px;
-	height: 35px;
+	border-radius: 10px;
 }
 
 .settings-buttons {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
 	margin-bottom: 25px;
 }
-.settings-buttons button
+.settings-buttons button {
+	width: 150px;
+}
 #save
 #clear
 
@@ -66,11 +71,15 @@ button {
 
 .numbers-buttons {
 	margin-bottom: 25px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .numbers-buttons button {
-	width: 80px;
-	height: 80px;
+	width: 90px;
+	height: 90px;
 }
 #button7
 #button8
@@ -83,12 +92,42 @@ button {
 #button3
 #button0
 
-.operators-buttons
-.operators-buttons button
-#add
-#subtract
-#multiply
-#divide
-#modulus
-#decimal
-#result
+.operators-buttons 
+.operators-buttons button {
+	width: 90px;
+	height: 45px;
+}
+#add {
+	width: 45px;
+	height: 45px;
+}
+
+#subtract {
+	width: 45px;
+	height: 45px;
+}
+
+#multiply {
+	width: 45px;
+	height: 45px;
+}
+
+#divide {
+	width: 45px;
+	height: 45px;
+}
+
+#modulus {
+	width: 45px;
+	height: 45px;
+}
+
+#decimal {
+	width: 45px;
+	height: 45px;
+}
+
+#result {
+	width: 90%;
+	height: 45px;
+}
